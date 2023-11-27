@@ -1,0 +1,25 @@
+{
+    "name": "tatiye/app",
+    "description": "tatiye.net",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+          "app\\": "helpers/",
+          "app\\config\\": "config/",
+          "app\\models\\": "models/",
+          "public\\payment\\": "payment/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tatiye",
+            "email": "info@tatiye.net"
+        }
+    ],
+    "require": {
+        "doctrine/sql-formatter": "^1.1",
+         "phpoffice/phpspreadsheet": "^1.29",
+         "dompdf/dompdf": "^2.0"
+    }
+}
